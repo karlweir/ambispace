@@ -1,0 +1,120 @@
+<object>
+  <spriteName>&lt;undefined&gt;</spriteName>
+  <solid>0</solid>
+  <visible>-1</visible>
+  <depth>0</depth>
+  <persistent>0</persistent>
+  <parentName>&lt;undefined&gt;</parentName>
+  <maskName>&lt;undefined&gt;</maskName>
+  <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//Create particle system
+Stars = part_system_create()
+part_system_depth(Stars,60)
+
+
+//Create a star particle
+StarParticle = part_type_create()
+part_type_sprite(StarParticle,sStarWhite03,0,0,1); 
+part_type_orientation(StarParticle,0,0,0,0,1);
+part_type_size(StarParticle,0.05,0.90,0,0.01);
+part_type_alpha3(Stars, 0.3, 0.7, 0.3);
+//part_type_colour_hsv(Stars, 0, 255, 0, 255, 255, 255 );
+//part_type_speed(StarParticle,1,1.5,0,0)
+part_type_direction(StarParticle,270,270,0,4)
+part_type_life(StarParticle,30000,90000)
+
+ 
+//Make it snow!!!!!!!!!!!!!!
+StarEmitter = part_emitter_create(Stars)
+part_emitter_region(Stars,StarEmitter,x-5000,x+5000,y-5000,y+5000,ps_shape_ellipse,ps_distr_gaussian)
+//part_emitter_stream(Stars,StarEmitter,StarParticle,7)
+
+
+part_emitter_burst(Stars,StarEmitter,StarParticle, 9000);
+
+
+
+
+//Create particle system
+Stars = part_system_create()
+part_system_depth(Stars,60)
+
+
+//Create a star particle
+StarParticle = part_type_create()
+part_type_sprite(StarParticle,sStarWhite03,0,0,1); 
+part_type_orientation(StarParticle,0,0,0,0,1);
+part_type_size(StarParticle,0.05,0.90,0,0.01);
+part_type_alpha3(Stars, 0.3, 0.7, 0.3);
+part_type_colour_hsv(Stars, 0, 255, 0, 255, 255, 255 );
+//part_type_speed(StarParticle,1,1.5,0,0)
+part_type_direction(StarParticle,270,270,0,4)
+part_type_life(StarParticle,30000,90000)
+
+ 
+//Make it snow!!!!!!!!!!!!!!
+StarEmitter = part_emitter_create(Stars)
+part_emitter_region(Stars,StarEmitter,x+10000,x+20000,y+10000,y+20000,ps_shape_ellipse,ps_distr_gaussian)
+//part_emitter_stream(Stars,StarEmitter,StarParticle,7)
+
+
+part_emitter_burst(Stars,StarEmitter,StarParticle, 9000);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//part_system_destroy(Stars)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
+  <PhysicsObject>0</PhysicsObject>
+  <PhysicsObjectSensor>0</PhysicsObjectSensor>
+  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
+  <PhysicsObjectGroup>0</PhysicsObjectGroup>
+  <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
+  <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
+  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
+  <PhysicsObjectAwake>-1</PhysicsObjectAwake>
+  <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
+  <PhysicsShapePoints/>
+</object>
