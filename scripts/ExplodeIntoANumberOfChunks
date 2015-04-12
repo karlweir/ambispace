@@ -1,0 +1,15 @@
+NumberOfBitsToCreate = argument0
+TypeOfChunk = argument1
+Snd = 0;
+
+BitsCreatedSoFar = 0
+
+//Create a number of bits - loops until enough bits have been created
+while BitsCreatedSoFar < oGame.NumberOfBitsThePlayerIsMadeOf {
+  //Create a Bit
+  instance_create(x,y,TypeOfChunk)
+  //Count it as created
+  BitsCreatedSoFar = BitsCreatedSoFar + 1
+  image_angle += randon_range(-200,200) / room_speed
+}
+instance_destroy()
