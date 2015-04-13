@@ -11,6 +11,10 @@ window_set_size(global.ScreenWidth,global.ScreenHeight)
 view_wview = global.ScreenWidth
 view_hport = global.ScreenHeight
 
+//how much of our screen do we want to take up?
+view_wview = global.ScreenWidth
+view_hport = global.ScreenHeight
+
 //Some strange game maker shiz
 surface_resize(application_surface,global.ScreenWidth,global.ScreenHeight)
 
