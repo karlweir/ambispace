@@ -67,15 +67,6 @@
     <instance objName="oPlayer" x="49960" y="50200" name="inst_F8487F73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSingleShotGun" x="50020" y="50200" name="inst_1F387A49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWaveGun" x="50080" y="50200" name="inst_87881666" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRock" x="48840" y="49900" name="inst_8591A980" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRock" x="49120" y="49540" name="inst_5CFDAD9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRock" x="50300" y="49380" name="inst_127F6FC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRock" x="50940" y="49760" name="inst_F171F43A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRock" x="51060" y="50400" name="inst_D2DBC1E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRock" x="50480" y="50620" name="inst_3EDE0A5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRock" x="49580" y="50640" name="inst_72773E22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRock" x="49380" y="50200" name="inst_575E1412" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRock" x="49500" y="49940" name="inst_C3680968" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oRock" x="49700" y="49680" name="inst_997A350B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oRock" x="50140" y="49720" name="inst_7CAEC6A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oRock" x="50400" y="49900" name="inst_4724A2BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
